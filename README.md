@@ -21,19 +21,7 @@ Welcome to the Amazon Product Price Prediction project! This repository contains
 ## 📊 Dataset
 This project uses an Amazon product dataset, which can be downloaded from [Kaggle](https://www.kaggle.com/code/mehakiftikhar/amazon-sales-dataset-eda/input).
 
-### Columns in the Dataset
-1. **product_id**: Unique identifier for each product
-2. **product_name**: Descriptive product title
-3. **category**: Product category hierarchy
-4. **discounted_price**: Current selling price
-5. **actual_price**: Original price before discounts
-6. **discount_percentage**: Percentage of discount
-7. **rating**: Customer rating (1 to 5 scale)
-8. **rating_count**: Number of customer ratings
-9. **about_product**: Product description
-10. **review_content**: Content of customer reviews
-
-📑 Dataset Column Descriptions
+## 📑 Dataset Column Descriptions
 1.  **product_id**: Unique identifier for each product, enabling tracking and referencing of specific items.
 2.  **product_name**: Name or title of the product, often including brand, type, and key features.
 3.  **category**: Product category hierarchy, showing primary and sub-categories, separated by |.
@@ -55,7 +43,7 @@ This project uses an Amazon product dataset, which can be downloaded from [Kaggl
 
 ### Prerequisites
 To run this project, you’ll need:
-- **R** with packages: `dplyr`, `ggplot2`, `caret`, `randomForest`, `Metrics`, `reshape2`
+- R with the following packages: 'dplyr', 'ggplot2', 'caret', 'randomForest', 'tidyr', 'readr', 'Metrics', 'textdata', 'tidytext', 'stringr', 'reshape2'
 - **RStudio** (optional, for interactive analysis)
 
 ### Installation
@@ -65,9 +53,8 @@ To run this project, you’ll need:
    ```
 2. Install the required R packages:
    ```R
-   install.packages(c("dplyr", "ggplot2", "caret", "randomForest", "Metrics", "reshape2"))
+   install.packages(c("dplyr", "ggplot2", "caret", "randomForest", "tidyr", "readr", "Metrics", "textdata", "tidytext", "stringr", "reshape2"))
    ```
-
 3. Download the dataset and place it in the `data/` folder.
 
 ## 📝 Project Workflow
@@ -89,12 +76,10 @@ The Random Forest model outperformed Linear Regression, showing lower RMSE and h
 - **Future Work**: Explore additional models like XGBoost, incorporate more text analysis on reviews, and create an interactive dashboard for user engagement.
 
 ## 📬 Contact
-For questions or feedback, please reach out at **your.email@example.com**.
+For questions or feedback, please reach out at **rshah92@asu.edu**.
 
 ---
 
 **Thank you for exploring the Amazon Product Price Prediction project!** 👋
 
 ---
-
-This README file offers a structured overview of your project, making it easy to understand the purpose, setup, and workflow.

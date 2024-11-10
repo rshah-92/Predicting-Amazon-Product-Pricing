@@ -34,22 +34,22 @@ This project uses an Amazon product dataset, which can be downloaded from [Kaggl
 10. **review_content**: Content of customer reviews
 
 📑 Dataset Column Descriptions
-product_id: Unique identifier for each product, enabling tracking and referencing of specific items.
-product_name: Name or title of the product, often including brand, type, and key features.
-category: Product category hierarchy, showing primary and sub-categories, separated by |.
-discounted_price: Selling price after discounts, originally formatted as a string with currency symbols.
-actual_price: Original price before any discounts, also formatted as a string with currency symbols.
-discount_percentage: Calculated percentage discount, based on the actual and discounted prices.
-rating: Average customer rating on a 1-5 scale, typically calculated from multiple reviews.
-rating_count: Total number of customer ratings, formatted as a string that may include commas.
-about_product: Detailed product description, often highlighting key features and benefits.
-user_id: Unique identifiers of users who reviewed or rated the product, comma-separated for multiple users.
-user_name: Names of users who reviewed or rated the product, listed as comma-separated values.
-review_id: Unique identifiers for each review, provided as a comma-separated list.
-review_title: Brief summary or title of each review, giving an impression of the review content.
-review_content: Full content of each review, containing detailed opinions and feedback from users.
-img_link: URL link to the product’s image, hosted on Amazon’s servers.
-product_link: Direct URL link to the product’s listing on Amazon, allowing easy access for further details or purchasing.
+1.  **product_id**: Unique identifier for each product, enabling tracking and referencing of specific items.
+2.  **product_name**: Name or title of the product, often including brand, type, and key features.
+3.  **category**: Product category hierarchy, showing primary and sub-categories, separated by |.
+4.  **discounted_price**: Selling price after discounts, originally formatted as a string with currency symbols.
+5.  **actual_price**: Original price before any discounts, also formatted as a string with currency symbols.
+6.  **discount_percentage**: Calculated percentage discount, based on the actual and discounted prices.
+7.  **rating**: Average customer rating on a 1-5 scale, typically calculated from multiple reviews.
+8.  **rating_count**: Total number of customer ratings, formatted as a string that may include commas.
+9.  **about_product**: Detailed product description, often highlighting key features and benefits.
+10. **user_id**: Unique identifiers of users who reviewed or rated the product, comma-separated for multiple users.
+11. **user_name**: Names of users who reviewed or rated the product, listed as comma-separated values.
+12. **review_id**: Unique identifiers for each review, provided as a comma-separated list.
+13. **review_title**: Brief summary or title of each review, giving an impression of the review content.
+14. **review_content**: Full content of each review, containing detailed opinions and feedback from users.
+15. **img_link**: URL link to the product’s image, hosted on Amazon’s servers.
+16. **product_link**: Direct URL link to the product’s listing on Amazon, allowing easy access for further details or purchasing.
 
 ## 🚀 Getting Started
 
